@@ -1,7 +1,7 @@
 # go-wordninja
 ## Getting Start
 ```bash
-go get github.com/willsmil/go-wordninja
+go get github.com/ChenghaoMou/go-wordninja
 ```
 
 ## Usage
@@ -9,7 +9,7 @@ go get github.com/willsmil/go-wordninja
 package main
 
 import (
-	"github.com/willsmil/go-wordninja"
+	"github.com/ChenghaoMou/go-wordninja"
 	"fmt"
 )
 

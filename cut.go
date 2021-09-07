@@ -11,7 +11,6 @@ import (
 	"os"
 	"io"
 	"runtime"
-	"path"
 )
 
 var maxLenWord int

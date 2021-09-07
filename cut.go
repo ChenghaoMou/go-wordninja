@@ -18,7 +18,8 @@ var maxLenWord int
 var wordCost map[string]float64
 
 func init() {
-	words := loadWords(path.Dir(getCurrentFilePath())+"/dict/wordninja_words.txt")
+	value := os.Getenv("WORDNINJA_FILE")
+	words := loadWords(value)
 	generateCutWordMap(words)
 	fmt.Println("init English cut words successfully!")
 }
